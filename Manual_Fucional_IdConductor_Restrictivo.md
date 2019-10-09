@@ -87,9 +87,9 @@ Se tiene dos tablas con los campos
 * **Vehículos disponibles:** Placas del usuario
 * **#Conductores/Capacidad:** Muestra la relación entre la cantidad de llaves que tiene asignada la unidad y la capacidad total de la unidad teniendo| en cuenta la [Activación](#Activación)
 
->> _**Nota:** Si la cantidad de llaves sobrepasa la capacidad de la unidad esta placa no podrá ser activada y se mostrará un comentario con el simbolo ![comentario](images\comentario.png) el cual dice "Para activar el encendido restrictivo, solo se permite asignar los conductores según la capacidad disponible"_
+>> _**Nota:** Si la cantidad de llaves sobrepasa la capacidad de la unidad esta placa no podrá ser activada y se mostrará un comentario con el simbolo ![comentario](images/comentario.png) el cual dice "Para activar el encendido restrictivo, solo se permite asignar los conductores según la capacidad disponible"_
 
->> _**Nota:** Si la capacidad de una de las placas es igual a `0 (cero)` esta placa no prodrá ser activada y se mostrará un comentario con el simbolo ![comentario](images\comentario.png) el cual dice "La unidad no es compatible con el accesorio de ID conductor"_
+>> _**Nota:** Si la capacidad de una de las placas es igual a `0 (cero)` esta placa no prodrá ser activada y se mostrará un comentario con el simbolo ![comentario](images/comentario.png) el cual dice "La unidad no es compatible con el accesorio de ID conductor"_
 
 ### Operatividad
 
