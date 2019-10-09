@@ -52,7 +52,7 @@ SELECT * FROM dbo.IC_Firmware_Capacidad_Restictivo AS ifcr
 ```
 Resultado:
 
-![](images\IC_Firmware_Capacidad_Restictivo.png)
+<img src="images\IC_Firmware_Capacidad_Restictivo.png">
 
 > Para que la unidad CELLO-IQ40 aplique Id Conductor restrictivo debe tener como mínimo la versión de firmware 36v donde el _FirmwareVersion_= 36 y el _FirmwareSubversion_= 22 (posición de la letra en el abecedario)
 
