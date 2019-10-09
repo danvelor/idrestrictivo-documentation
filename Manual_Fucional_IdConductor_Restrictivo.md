@@ -52,7 +52,7 @@ SELECT * FROM dbo.IC_Firmware_Capacidad_Restictivo AS ifcr
 ```
 Resultado:
 
-<img src="images\IC_Firmware_Capacidad_Restictivo.png">
+<center><img src="images\IC_Firmware_Capacidad_Restictivo.png"></center>
 
 > Para que la unidad CELLO-IQ40 aplique Id Conductor restrictivo debe tener como mínimo la versión de firmware 36v donde el _FirmwareVersion_= 36 y el _FirmwareSubversion_= 22 (posición de la letra en el abecedario)
 
@@ -60,29 +60,27 @@ Resultado:
 
 1. **Acción del usuario:** Click en Servicios
    
-    ![ingreso1](images\ingreso1.png)
+<center><img src="images/ingreso1.png" width="400px"></center>
 
-2. **Acción del usuario:** Click en Identificación de conductor
+1. **Acción del usuario:** Click en Identificación de conductor
    
-   ![ingreso2](images\ingreso2.png)
+<center><img src="images/ingreso2.png" width="400px"></center>
 
-3. **Acción del usuario:** Click en Asignar>Conductor a vehículo
+2. **Acción del usuario:** Click en Asignar>Conductor a vehículo
 
-    ![ingreso2](images\ingreso3.png)
+<center><img src="images/ingreso3.png" width="400px"></center>
 
-4. Se evidencia la visualización de:
+3. Se evidencia la visualización de:
    * Pestaña `Encendido restrictivo`
    * En la pestaña `Asignación conductores a vehículos` en el paso `3` los campos `Estado` y `Capacidad de memoria`
   
-
-    ![ingreso2](images\ingreso4.png)
-
+<center><img src="images/ingreso4.png" width="700px"></center>
 
 ## Encendido restrictivo
 
 Pantalla en la que se permite la activación o desactivación del id Restrictivo por placa.
 
-![EncendidoRestrictivo](images\EncendidoRestrictivo.png)
+<center><img src="images/EncendidoRestrictivo.png" width="700px"></center>
 
 Se tiene dos tablas con los campos
 
@@ -99,13 +97,13 @@ Se selecciona el check del vehiculo(s) ha activar o desactivar el Id restrictivo
 Una vez modificados los estados de los vehículos de la manera adecuada se finalizará la operación con el boton `Aplicar Cambios`.
 Aplicados los cambios se mostrará el siguiente popup:
 
-![Aplicastecambios](images\Aplicastecambios.png)
+<center><img src="images/Aplicastecambios.png" width="200px"></center>
 
 ## Asignación conductores a vehículos
 
 Pantalla responsable de la administración de asignación y desasignación de los conductores(llaves) a los vehículos.
 
-![Asignacionconductoresavehiculos](images\Asignacionconductoresavehiculos.png)
+<center><img src="images/Asignacionconductoresavehiculos.png" width="700px"></center>
 
 Realizada la [activación](#Activación) al cliente se mostrará los campos `Estado` y `Capacidad de memoria`
 
@@ -121,4 +119,4 @@ La tabla de asignaciones cuenta con los siguientes campos:
 
 >> _**Nota:** Los vehículos con `CON ENCENDIDO RESTRICTIVO` no permiten una asignación de conductores que sobrepasen su capacidad, se mostrará el siguiente popup:
 
-![Nopuedesasignar](images\Nopuedesasignar.png)
+<center><img src="images/Nopuedesasignar.png" width="200px"></center>
