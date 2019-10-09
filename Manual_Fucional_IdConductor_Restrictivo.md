@@ -1,6 +1,8 @@
 <link rel="stylesheet" type="text/css" href="style\style.css" />
 
 ![GitHub Logo](images\satrack_head.png)
+![GitHub Logo](images/satrack_head.png)
+<p><img src="images/satrack_head.png" alt="Flexbox Introduction" width="500"></p>
 
 # Manual funcional *ID Conductor Restrictivo*
 
